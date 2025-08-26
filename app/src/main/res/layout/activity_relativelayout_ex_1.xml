@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_relative"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <!-- Ô A -->
+    <TextView
+        android:id="@+id/tv_a"
+        style="@style/text"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/button_bg"
+        android:gravity="center"
+        android:text="@string/a" />
+
+    <!-- Ô B -->
+    <TextView
+        android:id="@+id/tv_b"
+        style="@style/text"
+        android:layout_width="50dp"
+        android:layout_height="200dp"
+        android:layout_above="@id/tv_a"
+        android:layout_toStartOf="@id/tv_c"
+        android:background="@drawable/button_bg"
+        android:gravity="center"
+        android:text="@string/b" />
+
+    <!-- Ô C -->
+    <TextView
+        android:id="@+id/tv_c"
+        style="@style/text"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@id/tv_a"
+        android:background="@drawable/button_bg"
+        android:gravity="center"
+        android:text="@string/c" />
+
+</RelativeLayout>

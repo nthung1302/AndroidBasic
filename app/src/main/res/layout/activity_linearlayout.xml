@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+    <!-- Nút A -->
+    <TextView
+        android:id="@+id/btnA"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="2dp"
+        android:layout_weight="2"
+        android:background="#198DFF"
+        android:gravity="center"
+        android:text="@string/a"
+        android:clickable="true"
+        android:focusable="true"
+        android:textColor="@color/white"
+        android:textSize="36sp" />
+
+    <!-- Hàng 2 (chiếm 5 phần) -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginBottom="2dp"
+        android:layout_weight="5"
+        android:orientation="horizontal">
+
+        <!-- Nút B -->
+        <TextView
+            android:id="@+id/btnB"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#FF0000"
+            android:gravity="center"
+            android:text="@string/b"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            tools:ignore="NestedWeights" />
+
+        <!-- Cột phải -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="2dp"
+            android:layout_weight="5"
+            android:orientation="vertical">
+
+            <!-- Nút C -->
+            <TextView
+                android:id="@+id/btnC"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="#FFEC19"
+                android:gravity="center"
+                android:text="@string/c"
+                android:textColor="#009688"
+                android:textSize="18sp" />
+
+            <!-- Nút D -->
+            <TextView
+                android:id="@+id/btnD"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="2dp"
+                android:layout_weight="3"
+                android:background="#FF5319"
+                android:gravity="center"
+                android:text="@string/d"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <!-- Hàng E-F -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:orientation="horizontal">
+
+                <!-- Nút E -->
+                <TextView
+                    android:id="@+id/btnE"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="2dp"
+                    android:layout_weight="1"
+                    android:background="#388E3C"
+                    android:gravity="center"
+                    android:text="@string/e"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    tools:ignore="NestedWeights" />
+
+                <!-- Nút F -->
+                <TextView
+                    android:id="@+id/btnF"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#303F9F"
+                    android:gravity="center"
+                    android:text="@string/f"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

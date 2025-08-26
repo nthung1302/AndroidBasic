@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp"
+    tools:context=".frame_layout.FrameLayoutActivity">
+
+    <!-- TextView A (trên cùng - bên trái) -->
+    <TextView
+        android:id="@+id/tvA"
+        style="@style/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|start"
+        android:text="@string/a" />
+
+    <!-- TextView B (trên cùng - bên phải) -->
+    <TextView
+        android:id="@+id/tvB"
+        style="@style/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|end"
+        android:text="@string/b" />
+
+    <!-- TextView C (giữa - bên phải) -->
+    <TextView
+        android:id="@+id/tvC"
+        style="@style/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|end"
+        android:text="@string/c" />
+
+    <!-- TextView D (giữa màn hình) -->
+    <TextView
+        android:id="@+id/tvD"
+        style="@style/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/d" />
+
+    <!-- TextView E (dưới cùng - bên phải) -->
+    <TextView
+        android:id="@+id/tvE"
+        style="@style/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:text="@string/e" />
+
+</FrameLayout>

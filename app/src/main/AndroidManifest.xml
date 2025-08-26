@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="true"
+        tools:ignore="UnnecessaryRequiredFeature" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AndroidBasic">
+        <activity
+            android:name=".intent.explicit_arr_data.f_loat.ExplicitArrDataFloat_ex_2"
+            android:exported="false" />
+        <activity
+            android:name=".intent.explicit_arr_data.i_nt.ExplicitArrDataInt_ex_1"
+            android:exported="false" />
+        <activity
+            android:name=".intent.explicit_arr_data.i_nt.ExplicitArrDataInt_ex_2"
+            android:exported="false" />
+        <activity
+            android:name=".intent.explicit_arr_data.s_tring.ExplicitArrDataString_ex_1"
+            android:exported="false" />
+        <activity
+            android:name=".intent.explicit_arr_data.s_tring.ExplicitArrDataString_ex_2"
+            android:exported="false" />
+        <activity
+            android:name=".encode.SHA_256"
+            android:exported="false" />
+        <activity
+            android:name=".intent.sent_data_activity.SentdataActivityLayout_1"
+            android:exported="false" />
+        <activity
+            android:name=".linear_layout.LinearLayoutActivity_ex"
+            android:exported="false" />
+        <activity
+            android:name=".intent.sent_data_activity.SentdataActivityLayout_2"
+            android:exported="false" />
+        <activity
+            android:name=".intent.IntentActionCallActivity"
+            android:exported="false" />
+        <activity
+            android:name=".intent.IntentActionSentToActivity"
+            android:exported="false" />
+        <activity
+            android:name=".intent.IntentActionViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".relative_layout.RelativeLayoutActivityID"
+            android:exported="false" />
+        <activity
+            android:name=".constraint_layout.ConstraintLayoutActivity"
+            android:exported="false" />
+        <activity
+            android:name=".frame_layout.FrameLayoutActivity"
+            android:exported="false" />
+        <activity
+            android:name=".relative_layout.RelativeLayoutActivity_ex_2"
+            android:exported="false" />
+        <activity
+            android:name=".relative_layout.RelativeLayoutActivity_ex_1"
+            android:exported="false" />
+        <activity
+            android:name=".relative_layout.RelativeLayoutActivityView"
+            android:exported="false" />
+        <activity
+            android:name=".linear_layout.LinearLayoutActivity"
+            android:exported="false" />
+        <activity
+            android:name=".intent.explicit_arr_data.f_loat.ExplicitArrDataFloat_ex_1"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

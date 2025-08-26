@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Logo -->
+    <ImageView
+        android:id="@+id/img_logo"
+        style="@style/logo"
+        tools:ignore="ContentDescription" />
+
+    <!-- Ô nhập địa chỉ IP -->
+    <EditText
+        android:id="@+id/text"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/nhap_dia_chi_ip"
+        style="@style/editText"
+        tools:ignore="Autofill,TextFields" />
+
+    <!-- Text hiển thị kết quả -->
+    <TextView
+        android:id="@+id/tv_result"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/ket_qua"
+        style="@style/editText"
+        tools:ignore="Autofill,TextFields" />
+
+    <!-- Nút search -->
+    <TextView
+        android:id="@+id/btn"
+        style="@style/btn"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/search" />
+
+</LinearLayout>

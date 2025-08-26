@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_relative_full"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp">
+
+    <!-- Hình nền/Logo full màn hình -->
+    <ImageView
+        android:id="@+id/img_background"
+        style="@style/logo"
+        tools:ignore="ContentDescription"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"/>
+
+    <!-- Nút A (trên cùng, trái) -->
+    <TextView
+        android:id="@+id/tvA"
+        style="@style/btn"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="@string/a" />
+
+    <!-- Nút B (trên cùng, phải) -->
+    <TextView
+        android:id="@+id/tvB"
+        style="@style/btn"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:text="@string/b" />
+
+    <!-- Nút C (dưới cùng, trái) -->
+    <TextView
+        android:id="@+id/tvC"
+        style="@style/btn"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="@string/c" />
+
+    <!-- Nút D (dưới cùng, phải) -->
+    <TextView
+        android:id="@+id/tvD"
+        style="@style/btn"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:text="@string/d" />
+
+</RelativeLayout>

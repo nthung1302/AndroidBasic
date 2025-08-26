@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".constraint_layout.ConstraintLayoutActivity">
+
+    <!-- Nút B (trên cùng) -->
+
+    <!-- Nút A (ở giữa trên B và D) -->
+    <TextView
+        android:id="@+id/btnB"
+        style="@style/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_bg"
+        android:text="@string/b"
+        app:layout_constraintBottom_toTopOf="@+id/btnD"
+        app:layout_constraintEnd_toEndOf="@+id/btnA"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/btnA"
+        style="@style/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_bg"
+        android:text="@string/a"
+        app:layout_constraintTop_toBottomOf="@+id/btnB"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/btnC"
+        app:layout_constraintBottom_toTopOf="@+id/btnD"
+        tools:ignore="MissingConstraints" />
+
+    <!-- Nút D (bên trái, giữa C và B/A) -->
+
+    <!-- Nút C (bên phải, dưới A và cạnh D) -->
+    <TextView
+        android:id="@+id/btnD"
+        style="@style/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_bg"
+        android:text="@string/d"
+        app:layout_constraintEnd_toStartOf="@+id/btnC"
+        app:layout_constraintStart_toStartOf="@+id/btnB"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="343dp" />
+
+    <TextView
+        android:id="@+id/btnC"
+        style="@style/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/button_bg"
+        android:text="@string/c"
+        app:layout_constraintTop_toBottomOf="@+id/btnA"
+        app:layout_constraintStart_toStartOf="@+id/btnE"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <!-- Nút E (dưới cùng, ở giữa) -->
+    <TextView
+        android:id="@+id/btnE"
+        style="@style/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/e"
+        app:layout_constraintTop_toBottomOf="@+id/btnC"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

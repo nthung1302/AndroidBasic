@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_relative_buttons"
+    android:padding="30dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Nút A -->
+    <TextView
+        android:id="@+id/tvA"
+        style="@style/btn"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="@string/a" />
+
+    <!-- Nút B (dưới A) -->
+    <TextView
+        android:id="@+id/tvB"
+        style="@style/btn"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvA"
+        android:layout_marginTop="20dp"
+        android:text="@string/b" />
+
+    <!-- Nút C (dưới B, sang phải) -->
+    <TextView
+        android:id="@+id/tvC"
+        style="@style/btn"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvB"
+        android:layout_toEndOf="@id/tvB"
+        android:layout_marginEnd="10dp"
+        android:text="@string/c" />
+
+    <!-- Nút D (dưới B, sang phải C) -->
+    <TextView
+        android:id="@+id/tvD"
+        style="@style/btn"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvB"
+        android:layout_toEndOf="@id/tvC"
+        android:text="@string/d" />
+
+    <!-- Logo -->
+    <ImageView
+        android:id="@+id/img_logo"
+        style="@style/logo"
+        android:layout_below="@id/tvC"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        tools:ignore="ContentDescription" />
+
+</RelativeLayout>
