@@ -8,7 +8,7 @@ import com.example.androidbasic.R;
 import com.example.androidbasic.helpers.animation;
 import com.example.androidbasic.helpers.fullscreen;
 
-public class SentdataActivityLayout_1 extends fullscreen {
+public class SentdataActivityLayout_Page_1 extends fullscreen {
 
     TextView textView, btn;
     int REQUEST_CODE_EDIT = 123;
@@ -22,7 +22,7 @@ public class SentdataActivityLayout_1 extends fullscreen {
 
         btn.setOnClickListener(v -> {
             animation.click(btn);
-            Intent intent = new Intent(SentdataActivityLayout_1.this, SentdataActivityLayout_2.class);
+            Intent intent = new Intent(SentdataActivityLayout_Page_1.this, SentdataActivityLayout_Page_2.class);
             startActivityForResult(intent, REQUEST_CODE_EDIT);
         });
 

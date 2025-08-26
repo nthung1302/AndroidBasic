@@ -1,4 +1,4 @@
-package com.example.androidbasic.intent.explicit_arr_data.f_loat;
+package com.example.androidbasic.intent.sent_data_arr.f_loat;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -16,7 +16,7 @@ public class ExplicitArrDataFloat_ex_2 extends fullscreen {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_intent_explicit_arr_data_float_ex_2);
+        setContentView(R.layout.activity_intent_explicit_data_float_page_2);
 
         listView = findViewById(R.id.lview);
         Intent intent = getIntent();
@@ -24,6 +24,7 @@ public class ExplicitArrDataFloat_ex_2 extends fullscreen {
 
         ArrayList<String> arrayList = new ArrayList<>();
 
+        assert arr != null;
         for (float value : arr){
             arrayList.add(String.valueOf(value));
         }

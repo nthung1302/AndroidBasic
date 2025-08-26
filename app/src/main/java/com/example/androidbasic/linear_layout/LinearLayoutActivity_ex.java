@@ -11,14 +11,16 @@ import java.net.UnknownHostException;
 
 public class LinearLayoutActivity_ex extends fullscreen {
 
+    TextView text, ketqua, btn;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linearlayout_ex);
 
-        TextView text = findViewById(R.id.text);
-        TextView ketqua = findViewById(R.id.tv_result);
-        TextView btn = findViewById(R.id.btn);
+        text = findViewById(R.id.text);
+        ketqua = findViewById(R.id.tv_result);
+        btn = findViewById(R.id.btn);
 
         btn.setOnClickListener(v -> {
             String ipInput = text.getText().toString().trim();

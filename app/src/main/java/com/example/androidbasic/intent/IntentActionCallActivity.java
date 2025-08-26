@@ -9,8 +9,8 @@ import com.example.androidbasic.R;
 import com.example.androidbasic.helpers.fullscreen;
 
 public class IntentActionCallActivity extends fullscreen {
-
     ImageView img;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Scroll ngang header -->
+    <HorizontalScrollView
+        android:id="@+id/headerScroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true"
+        android:scrollbars="none">
+
+        <TableLayout
+            android:id="@+id/tableHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:stretchColumns="none">
+        </TableLayout>
+
+    </HorizontalScrollView>
+
+    <!-- Scroll ngang + dọc dữ liệu -->
+    <HorizontalScrollView
+        android:id="@+id/dataScroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true">
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TableLayout
+                android:id="@+id/tableData"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:stretchColumns="none">
+            </TableLayout>
+
+        </ScrollView>
+    </HorizontalScrollView>
+
+</LinearLayout>

@@ -1,4 +1,4 @@
-package com.example.androidbasic.intent.explicit_arr_data.s_tring;
+package com.example.androidbasic.intent.sent_data_arr.s_tring;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -14,7 +14,7 @@ public class ExplicitArrDataString_ex_2 extends fullscreen {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_intent_explicit_arr_data_string_ex_2);
+        setContentView(R.layout.activity_intent_explicit_data_string_page_2);
 
         lvie = findViewById(R.id.lview);
 

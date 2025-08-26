@@ -17,31 +17,49 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidBasic">
         <activity
-            android:name=".intent.explicit_arr_data.f_loat.ExplicitArrDataFloat_ex_2"
+            android:name=".intent.sent_data_bundle.SentDataBundleActivity_Page_1"
             android:exported="false" />
         <activity
-            android:name=".intent.explicit_arr_data.i_nt.ExplicitArrDataInt_ex_1"
+            android:name=".intent.add_data_table.AddDataTableActivity_page_2"
             android:exported="false" />
         <activity
-            android:name=".intent.explicit_arr_data.i_nt.ExplicitArrDataInt_ex_2"
+            android:name=".intent.sent_data_bundle.SentDataBundleActivity_Page_2"
             android:exported="false" />
         <activity
-            android:name=".intent.explicit_arr_data.s_tring.ExplicitArrDataString_ex_1"
+            android:name=".intent.sent_data_obj.SentDataObjectActivity_Page_1"
             android:exported="false" />
         <activity
-            android:name=".intent.explicit_arr_data.s_tring.ExplicitArrDataString_ex_2"
+            android:name=".intent.sent_data_obj.SentDataObjectActivity_Page_2"
+            android:exported="false" />
+        <activity
+            android:name=".intent.sent_data_arr.f_loat.ExplicitArrDataFloat_ex_1"
+            android:exported="false" />
+        <activity
+            android:name=".intent.sent_data_arr.f_loat.ExplicitArrDataFloat_ex_2"
+            android:exported="false" />
+        <activity
+            android:name=".intent.sent_data_arr.i_nt.ExplicitArrDataInt_ex_1"
+            android:exported="false" />
+        <activity
+            android:name=".intent.sent_data_arr.i_nt.ExplicitArrDataInt_ex_2"
+            android:exported="false" />
+        <activity
+            android:name=".intent.sent_data_arr.s_tring.ExplicitArrDataString_ex_1"
+            android:exported="false" />
+        <activity
+            android:name=".intent.sent_data_arr.s_tring.ExplicitArrDataString_ex_2"
             android:exported="false" />
         <activity
             android:name=".encode.SHA_256"
             android:exported="false" />
         <activity
-            android:name=".intent.sent_data_activity.SentdataActivityLayout_1"
+            android:name=".intent.sent_data_activity.SentdataActivityLayout_Page_1"
             android:exported="false" />
         <activity
             android:name=".linear_layout.LinearLayoutActivity_ex"
             android:exported="false" />
         <activity
-            android:name=".intent.sent_data_activity.SentdataActivityLayout_2"
+            android:name=".intent.sent_data_activity.SentdataActivityLayout_Page_2"
             android:exported="false" />
         <activity
             android:name=".intent.IntentActionCallActivity"
@@ -74,7 +92,7 @@
             android:name=".linear_layout.LinearLayoutActivity"
             android:exported="false" />
         <activity
-            android:name=".intent.explicit_arr_data.f_loat.ExplicitArrDataFloat_ex_1"
+            android:name=".intent.add_data_table.AddDataTableActivity_page_1"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
