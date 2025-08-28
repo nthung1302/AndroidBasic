@@ -5,9 +5,7 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 import com.example.androidbasic.R;
-import com.example.androidbasic.domain.Persion;
 import com.example.androidbasic.helpers.fullscreen;
-import com.example.androidbasic.intent.sent_data_obj.SentDataObjectActivity_Page_2;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -27,7 +25,7 @@ public class SentDataBundleActivity_Page_2 extends fullscreen {
             String strings = bundle.getString("bunString");
             int ints = bundle.getInt("bunInt");
             String[] strings_arr = bundle.getStringArray("bunStringArr");
-            Persion persion = (Persion) bundle.getSerializable("bunObject");
+            PersionModelSentDataBundle persion = (PersionModelSentDataBundle) bundle.getSerializable("bunObject");
 
             ArrayList<String> arr = new ArrayList<>();
             arr.add(strings);

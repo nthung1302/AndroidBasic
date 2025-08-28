@@ -17,6 +17,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidBasic">
         <activity
+            android:name=".list_view.ex_1.CustomListViewActivity_ex_1"
+            android:exported="false" />
+        <activity
+            android:name=".intent.add_data_table.AddDataTableActivity_page_1"
+            android:exported="false" />
+        <activity
+            android:name=".list_view.ListViewActivityBasic"
+            android:exported="false" />
+        <activity
             android:name=".intent.sent_data_bundle.SentDataBundleActivity_Page_1"
             android:exported="false" />
         <activity
@@ -92,7 +101,7 @@
             android:name=".linear_layout.LinearLayoutActivity"
             android:exported="false" />
         <activity
-            android:name=".intent.add_data_table.AddDataTableActivity_page_1"
+            android:name=".list_view.ex_2.CustomListViewActivity_ex_2"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

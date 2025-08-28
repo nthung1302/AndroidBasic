@@ -5,7 +5,6 @@ import android.os.Bundle;
 import android.widget.ImageView;
 
 import com.example.androidbasic.R;
-import com.example.androidbasic.domain.Persion;
 import com.example.androidbasic.helpers.fullscreen;
 
 import java.util.ArrayList;
@@ -24,12 +23,12 @@ public class SentDataObjectActivity_Page_1 extends fullscreen {
         btn = findViewById(R.id.btn);
 
         btn.setOnClickListener(v -> {
-            Persion persion1 = new Persion();
+            PersionModelSentDataObj persion1 = new PersionModelSentDataObj();
             persion1.setName("Nguyen Minh Hung");
             persion1.setAge(10);
             persion1.setSchool("DHCN DONG A");
 
-            Persion persion2 = new Persion("Nguyen Van A", 19, "CD FPT POLITECHNIC");
+            PersionModelSentDataObj persion2 = new PersionModelSentDataObj("Nguyen Van A", 10, "CD FPT POLITECHNIC");
 
             ArrayList<String> arrayList = new ArrayList<>();
             arrayList.add(persion1.toString());

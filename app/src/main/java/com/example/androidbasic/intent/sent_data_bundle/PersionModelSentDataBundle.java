@@ -1,18 +1,18 @@
-package com.example.androidbasic.domain;
+package com.example.androidbasic.intent.sent_data_bundle;
 
 import androidx.annotation.NonNull;
 
 import java.io.Serializable;
 
-public class Persion implements Serializable {
+public class PersionModelSentDataBundle implements Serializable {
     private String name;
     private int age;
     private String school;
 
-    public Persion() {
+    public PersionModelSentDataBundle() {
     }
 
-    public Persion(String name, int age, String school) {
+    public PersionModelSentDataBundle(String name, int age, String school) {
         this.name = name;
         this.age = age;
         this.school = school;
@@ -45,6 +45,6 @@ public class Persion implements Serializable {
     @NonNull
     @Override
     public String toString() {
-        return name +  " " + age + " " + school;
+        return name + " " + age + " " + school;
     }
 }
