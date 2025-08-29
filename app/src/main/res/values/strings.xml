@@ -48,4 +48,5 @@
     <string name="private_ip">Private IP</string>
     <string name="public_ip">Public IP</string>
     <string name="ip_kh_ng_h_p_l">IP không hợp lệ!</string>
+    <string name="logo">Logo</string>
 </resources>

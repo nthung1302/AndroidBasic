@@ -17,91 +17,91 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidBasic">
         <activity
-            android:name=".list_view.ex_1.CustomListViewActivity_ex_1"
+            android:name=".GridViews.GridViewActivityBasic"
             android:exported="false" />
         <activity
-            android:name=".intent.add_data_table.AddDataTableActivity_page_1"
+            android:name=".ListViews.ex_2.CustomListViewActivity_ex_2"
             android:exported="false" />
         <activity
-            android:name=".list_view.ListViewActivityBasic"
+            android:name=".ListViews.ex_1.CustomListViewActivity_ex_1"
             android:exported="false" />
         <activity
-            android:name=".intent.sent_data_bundle.SentDataBundleActivity_Page_1"
+            android:name=".ListViews.ListViewActivityBasic"
             android:exported="false" />
         <activity
-            android:name=".intent.add_data_table.AddDataTableActivity_page_2"
+            android:name=".Intents.sent_data_bundle.SentDataBundleActivity_Page_1"
             android:exported="false" />
         <activity
-            android:name=".intent.sent_data_bundle.SentDataBundleActivity_Page_2"
+            android:name=".Intents.sent_data_bundle.SentDataBundleActivity_Page_2"
             android:exported="false" />
         <activity
-            android:name=".intent.sent_data_obj.SentDataObjectActivity_Page_1"
+            android:name=".Intents.sent_data_obj.SentDataObjectActivity_Page_1"
             android:exported="false" />
         <activity
-            android:name=".intent.sent_data_obj.SentDataObjectActivity_Page_2"
+            android:name=".Intents.sent_data_obj.SentDataObjectActivity_Page_2"
             android:exported="false" />
         <activity
-            android:name=".intent.sent_data_arr.f_loat.ExplicitArrDataFloat_ex_1"
+            android:name=".Intents.sent_data_arr.f_loat.ExplicitArrDataFloat_ex_1"
             android:exported="false" />
         <activity
-            android:name=".intent.sent_data_arr.f_loat.ExplicitArrDataFloat_ex_2"
+            android:name=".Intents.sent_data_arr.f_loat.ExplicitArrDataFloat_ex_2"
             android:exported="false" />
         <activity
-            android:name=".intent.sent_data_arr.i_nt.ExplicitArrDataInt_ex_1"
+            android:name=".Intents.sent_data_arr.i_nt.ExplicitArrDataInt_ex_1"
             android:exported="false" />
         <activity
-            android:name=".intent.sent_data_arr.i_nt.ExplicitArrDataInt_ex_2"
+            android:name=".Intents.sent_data_arr.i_nt.ExplicitArrDataInt_ex_2"
             android:exported="false" />
         <activity
-            android:name=".intent.sent_data_arr.s_tring.ExplicitArrDataString_ex_1"
+            android:name=".Intents.sent_data_arr.s_tring.ExplicitArrDataString_ex_1"
             android:exported="false" />
         <activity
-            android:name=".intent.sent_data_arr.s_tring.ExplicitArrDataString_ex_2"
+            android:name=".Intents.sent_data_arr.s_tring.ExplicitArrDataString_ex_2"
             android:exported="false" />
         <activity
             android:name=".encode.SHA_256"
             android:exported="false" />
         <activity
-            android:name=".intent.sent_data_activity.SentdataActivityLayout_Page_1"
+            android:name=".Intents.sent_data_activity.SentdataActivityLayout_Page_1"
             android:exported="false" />
         <activity
-            android:name=".linear_layout.LinearLayoutActivity_ex"
+            android:name=".LinearLayouts.LinearLayoutActivity_ex"
             android:exported="false" />
         <activity
-            android:name=".intent.sent_data_activity.SentdataActivityLayout_Page_2"
+            android:name=".Intents.sent_data_activity.SentdataActivityLayout_Page_2"
             android:exported="false" />
         <activity
-            android:name=".intent.IntentActionCallActivity"
+            android:name=".Intents.IntentActionCallActivity"
             android:exported="false" />
         <activity
-            android:name=".intent.IntentActionSentToActivity"
+            android:name=".Intents.IntentActionSentToActivity"
             android:exported="false" />
         <activity
-            android:name=".intent.IntentActionViewActivity"
+            android:name=".Intents.IntentActionViewActivity"
             android:exported="false" />
         <activity
-            android:name=".relative_layout.RelativeLayoutActivityID"
+            android:name=".RelativeLayouts.RelativeLayoutActivityID"
             android:exported="false" />
         <activity
-            android:name=".constraint_layout.ConstraintLayoutActivity"
+            android:name=".ConstraintLayout.ConstraintLayoutActivity"
             android:exported="false" />
         <activity
-            android:name=".frame_layout.FrameLayoutActivity"
+            android:name=".FrameLayouts.FrameLayoutActivity"
             android:exported="false" />
         <activity
-            android:name=".relative_layout.RelativeLayoutActivity_ex_2"
+            android:name=".RelativeLayouts.RelativeLayoutActivity_ex_2"
             android:exported="false" />
         <activity
-            android:name=".relative_layout.RelativeLayoutActivity_ex_1"
+            android:name=".RelativeLayouts.RelativeLayoutActivity_ex_1"
             android:exported="false" />
         <activity
-            android:name=".relative_layout.RelativeLayoutActivityView"
+            android:name=".RelativeLayouts.RelativeLayoutActivityView"
             android:exported="false" />
         <activity
-            android:name=".linear_layout.LinearLayoutActivity"
+            android:name=".LinearLayouts.LinearLayoutActivity"
             android:exported="false" />
         <activity
-            android:name=".list_view.ex_2.CustomListViewActivity_ex_2"
+            android:name=".GridViews.CustomListView.CustomGridViewActivity_ex_1"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
