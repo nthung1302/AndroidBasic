@@ -18,13 +18,13 @@ public class CustomListViewActivity_ex_2 extends fullscreen {
         ListView listView = findViewById(R.id.lview);
 
         ArrayList arr = new ArrayList<>();
-        arr.add(new PersionModelListView_ex_2(R.drawable.ic_launcher, "Nguyen Thanh Hung", "DHCN DONG A",  R.drawable.ic_launcher));
-        arr.add(new PersionModelListView_ex_2(R.drawable.ic_launcher, "Nguyen Thanh Hung", "DHCN DONG A",  R.drawable.ic_launcher));
-        arr.add(new PersionModelListView_ex_2(R.drawable.ic_launcher, "Nguyen Thanh Hung", "DHCN DONG A",  R.drawable.ic_launcher));
-        arr.add(new PersionModelListView_ex_2(R.drawable.ic_launcher, "Nguyen Thanh Hung", "DHCN DONG A",  R.drawable.ic_launcher));
+        arr.add(new Persion(R.drawable.ic_launcher, "Nguyen Thanh Hung", "DHCN DONG A",  R.drawable.ic_launcher));
+        arr.add(new Persion(R.drawable.ic_launcher, "Nguyen Thanh Hung", "DHCN DONG A",  R.drawable.ic_launcher));
+        arr.add(new Persion(R.drawable.ic_launcher, "Nguyen Thanh Hung", "DHCN DONG A",  R.drawable.ic_launcher));
+        arr.add(new Persion(R.drawable.ic_launcher, "Nguyen Thanh Hung", "DHCN DONG A",  R.drawable.ic_launcher));
 
 
-        PersionAdapterListView_ex_2 adapter = new PersionAdapterListView_ex_2(CustomListViewActivity_ex_2.this, R.layout.custom_list_view_row_ex_2, arr);
+        PersionAdapter adapter = new PersionAdapter(CustomListViewActivity_ex_2.this, R.layout.custom_list_view_row_ex_2, arr);
         listView.setAdapter(adapter);
     }
 }

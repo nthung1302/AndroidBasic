@@ -1,6 +1,5 @@
 package com.example.androidbasic.GridViews.CustomListView;
 
-import android.annotation.SuppressLint;
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -9,18 +8,16 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import androidx.recyclerview.widget.RecyclerView;
-
 import com.example.androidbasic.R;
 
 import java.util.ArrayList;
 
-public class PersionAdapterGridView_ex_1 extends BaseAdapter {
+public class PersionAdapter extends BaseAdapter {
     private final Context context;
     private final int layout;
-    private final ArrayList<PersionModelGridView_ex_1> persionList;
+    private final ArrayList<Persion> persionList;
 
-    public PersionAdapterGridView_ex_1(Context context, int layout, ArrayList<PersionModelGridView_ex_1> persionList) {
+    public PersionAdapter(Context context, int layout, ArrayList<Persion> persionList) {
         this.context = context;
         this.layout = layout;
         this.persionList = persionList;
@@ -59,7 +56,7 @@ public class PersionAdapterGridView_ex_1 extends BaseAdapter {
         }
 
 
-        PersionModelGridView_ex_1 persion = persionList.get(i);
+        Persion persion = persionList.get(i);
         holder.avata.setImageResource(persion.getAvata());
         holder.title.setText(persion.getName());
         holder.content.setText(persion.getSchool());

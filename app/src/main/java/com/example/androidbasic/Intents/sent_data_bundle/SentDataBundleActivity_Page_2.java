@@ -25,7 +25,7 @@ public class SentDataBundleActivity_Page_2 extends fullscreen {
             String strings = bundle.getString("bunString");
             int ints = bundle.getInt("bunInt");
             String[] strings_arr = bundle.getStringArray("bunStringArr");
-            PersionModelSentDataBundle persion = (PersionModelSentDataBundle) bundle.getSerializable("bunObject");
+            Persion persion = (Persion) bundle.getSerializable("bunObject");
 
             ArrayList<String> arr = new ArrayList<>();
             arr.add(strings);

@@ -4,15 +4,15 @@ import androidx.annotation.NonNull;
 
 import java.io.Serializable;
 
-public class PersionModelSentDataBundle implements Serializable {
+public class Persion implements Serializable {
     private String name;
     private int age;
     private String school;
 
-    public PersionModelSentDataBundle() {
+    public Persion() {
     }
 
-    public PersionModelSentDataBundle(String name, int age, String school) {
+    public Persion(String name, int age, String school) {
         this.name = name;
         this.age = age;
         this.school = school;

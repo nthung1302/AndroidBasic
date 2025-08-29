@@ -22,7 +22,7 @@ public class SentDataBundleActivity_Page_1 extends fullscreen {
             intent = new Intent(SentDataBundleActivity_Page_1.this, SentDataBundleActivity_Page_2.class);
             String[] stringArr = {"Nguyen Van A", "Nguyen Van B", "Nguyen Van C"};
 
-            PersionModelSentDataBundle persion = new PersionModelSentDataBundle("Nguyen Van A", 10, "CD FPT POLITECHNIC");
+            Persion persion = new Persion("Nguyen Van A", 10, "CD FPT POLITECHNIC");
 
             Bundle bundle = new Bundle();
 

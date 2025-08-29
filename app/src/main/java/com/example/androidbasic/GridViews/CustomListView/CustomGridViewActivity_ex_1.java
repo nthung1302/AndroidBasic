@@ -20,25 +20,25 @@ public class CustomGridViewActivity_ex_1 extends fullscreen {
 
         GridView gridView = findViewById(R.id.GridViewBasic_gview);
 
-        ArrayList<PersionModelGridView_ex_1> arr = new ArrayList<>();
+        ArrayList<Persion> arr = new ArrayList<>();
 
-        arr.add(new PersionModelGridView_ex_1(R.drawable.ic_launcher, "Nguyen Thanh Hung", "DHCN DONG A"));
-        arr.add(new PersionModelGridView_ex_1(R.drawable.ic_launcher, "Nguyen Van A", "DHCN DONG A"));
-        arr.add(new PersionModelGridView_ex_1(R.drawable.ic_launcher, "Nguyen Van B", "DHCN DONG A"));
-        arr.add(new PersionModelGridView_ex_1(R.drawable.ic_launcher, "Nguyen Thi C", "DHCN DONG A"));
-        arr.add(new PersionModelGridView_ex_1(R.drawable.ic_launcher, "Nguyen Van D", "DHCN DONG A"));
-        arr.add(new PersionModelGridView_ex_1(R.drawable.ic_launcher, "Nguyen Van E", "DHCN DONG A"));
-        arr.add(new PersionModelGridView_ex_1(R.drawable.ic_launcher, "Nguyen Van F", "DHCN DONG A"));
-        arr.add(new PersionModelGridView_ex_1(R.drawable.ic_launcher, "Nguyen Thi G", "DHCN DONG A"));
-        arr.add(new PersionModelGridView_ex_1(R.drawable.ic_launcher, "Nguyen Thi H", "DHCN DONG A"));
-        arr.add(new PersionModelGridView_ex_1(R.drawable.ic_launcher, "Nguyen Van I", "DHCN DONG A"));
-        arr.add(new PersionModelGridView_ex_1(R.drawable.ic_launcher, "Nguyen Van J", "DHCN DONG A"));
-        arr.add(new PersionModelGridView_ex_1(R.drawable.ic_launcher, "Nguyen Van K", "DHCN DONG A"));
-        arr.add(new PersionModelGridView_ex_1(R.drawable.ic_launcher, "Nguyen Thi L", "DHCN DONG A"));
-        arr.add(new PersionModelGridView_ex_1(R.drawable.ic_launcher, "Nguyen Van M", "DHCN DONG A"));
+        arr.add(new Persion(R.drawable.ic_launcher, "Nguyen Thanh Hung", "DHCN DONG A"));
+        arr.add(new Persion(R.drawable.ic_launcher, "Nguyen Van A", "DHCN DONG A"));
+        arr.add(new Persion(R.drawable.ic_launcher, "Nguyen Van B", "DHCN DONG A"));
+        arr.add(new Persion(R.drawable.ic_launcher, "Nguyen Thi C", "DHCN DONG A"));
+        arr.add(new Persion(R.drawable.ic_launcher, "Nguyen Van D", "DHCN DONG A"));
+        arr.add(new Persion(R.drawable.ic_launcher, "Nguyen Van E", "DHCN DONG A"));
+        arr.add(new Persion(R.drawable.ic_launcher, "Nguyen Van F", "DHCN DONG A"));
+        arr.add(new Persion(R.drawable.ic_launcher, "Nguyen Thi G", "DHCN DONG A"));
+        arr.add(new Persion(R.drawable.ic_launcher, "Nguyen Thi H", "DHCN DONG A"));
+        arr.add(new Persion(R.drawable.ic_launcher, "Nguyen Van I", "DHCN DONG A"));
+        arr.add(new Persion(R.drawable.ic_launcher, "Nguyen Van J", "DHCN DONG A"));
+        arr.add(new Persion(R.drawable.ic_launcher, "Nguyen Van K", "DHCN DONG A"));
+        arr.add(new Persion(R.drawable.ic_launcher, "Nguyen Thi L", "DHCN DONG A"));
+        arr.add(new Persion(R.drawable.ic_launcher, "Nguyen Van M", "DHCN DONG A"));
 
 
-        PersionAdapterGridView_ex_1 adapter = new PersionAdapterGridView_ex_1(CustomGridViewActivity_ex_1.this, R.layout.custom_grid_view_row_ex_1, arr);
+        PersionAdapter adapter = new PersionAdapter(CustomGridViewActivity_ex_1.this, R.layout.custom_grid_view_row_ex_1, arr);
         gridView.setAdapter(adapter);
 
         gridView.setOnItemClickListener(new AdapterView.OnItemClickListener() {

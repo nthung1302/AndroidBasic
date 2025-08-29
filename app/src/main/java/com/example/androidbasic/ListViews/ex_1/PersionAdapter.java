@@ -14,13 +14,13 @@ import com.example.androidbasic.R;
 import java.util.List;
 
 
-public class PersionAdapterListView_ex_1 extends BaseAdapter{
+public class PersionAdapter extends BaseAdapter{
 
     private final Context context;
     private final int layout;
-    private final List<PersionModelListView_ex_1> persionsList;
+    private final List<Persion> persionsList;
 
-    public PersionAdapterListView_ex_1(Context context, int layout, List<PersionModelListView_ex_1> persionsList) {
+    public PersionAdapter(Context context, int layout, List<Persion> persionsList) {
         this.context = context;
         this.layout = layout;
         this.persionsList = persionsList;
@@ -51,7 +51,7 @@ public class PersionAdapterListView_ex_1 extends BaseAdapter{
         TextView title = view.findViewById(R.id.title);
         TextView content = view.findViewById(R.id.content);
 
-        PersionModelListView_ex_1 persion = persionsList.get(i);
+        Persion persion = persionsList.get(i);
         img.setImageResource(persion.getImage());
         title.setText(persion.getName());
         content.setText(persion.getSchool());

@@ -23,12 +23,12 @@ public class SentDataObjectActivity_Page_1 extends fullscreen {
         btn = findViewById(R.id.btn);
 
         btn.setOnClickListener(v -> {
-            PersionModelSentDataObj persion1 = new PersionModelSentDataObj();
+            Persion persion1 = new Persion();
             persion1.setName("Nguyen Minh Hung");
             persion1.setAge(10);
             persion1.setSchool("DHCN DONG A");
 
-            PersionModelSentDataObj persion2 = new PersionModelSentDataObj("Nguyen Van A", 10, "CD FPT POLITECHNIC");
+            Persion persion2 = new Persion("Nguyen Van A", 10, "CD FPT POLITECHNIC");
 
             ArrayList<String> arrayList = new ArrayList<>();
             arrayList.add(persion1.toString());

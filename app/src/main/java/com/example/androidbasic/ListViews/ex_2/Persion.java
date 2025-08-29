@@ -2,16 +2,16 @@ package com.example.androidbasic.ListViews.ex_2;
 
 import java.io.Serializable;
 
-public class PersionModelListView_ex_2 implements Serializable {
+public class Persion implements Serializable {
     private int imgAvata;
     private String name;
     private String school;
     private int imgNation;
 
-    public PersionModelListView_ex_2() {
+    public Persion() {
     }
 
-    public PersionModelListView_ex_2(int imgAvata, String name, String school, int imgNation) {
+    public Persion(int imgAvata, String name, String school, int imgNation) {
         this.imgAvata = imgAvata;
         this.name = name;
         this.school = school;

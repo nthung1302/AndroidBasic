@@ -1,22 +1,28 @@
-package com.example.androidbasic.GridViews.CustomListView;
+package com.example.androidbasic.ListViews.ex_1;
 
-public class PersionModelGridView_ex_1 {
-    private int avata;
+import java.io.Serializable;
+
+public class Persion implements Serializable {
+    private int image;
     private String name;
     private String school;
 
-    public PersionModelGridView_ex_1(int avata, String name, String school) {
-        this.avata = avata;
+    public Persion() {
+
+    }
+
+    public Persion(int image, String name, String school) {
+        this.image = image;
         this.name = name;
         this.school = school;
     }
 
-    public int getAvata() {
-        return avata;
+    public int getImage() {
+        return image;
     }
 
-    public void setAvata(int avata) {
-        this.avata = avata;
+    public void setImage(int image) {
+        this.image = image;
     }
 
     public String getName() {
