@@ -5,7 +5,7 @@ import android.os.Bundle;
 import android.widget.ImageView;
 
 import com.example.androidbasic.R;
-import com.example.androidbasic.helpers.fullscreen;
+import com.example.androidbasic.Helpers.fullscreen;
 
 public class SentDataBundleActivity_Page_1 extends fullscreen {
 

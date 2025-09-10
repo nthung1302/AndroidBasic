@@ -6,7 +6,7 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 import com.example.androidbasic.R;
-import com.example.androidbasic.helpers.fullscreen;
+import com.example.androidbasic.Helpers.fullscreen;
 
 public class ExplicitArrDataString_ex_2 extends fullscreen {
 

@@ -3,7 +3,7 @@ package com.example.androidbasic.LinearLayouts;
 import android.os.Bundle;
 
 import com.example.androidbasic.R;
-import com.example.androidbasic.helpers.fullscreen;
+import com.example.androidbasic.Helpers.fullscreen;
 
 public class LinearLayoutActivity extends fullscreen {
 

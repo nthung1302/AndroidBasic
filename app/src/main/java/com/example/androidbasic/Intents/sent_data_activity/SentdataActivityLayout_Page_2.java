@@ -6,8 +6,8 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 import com.example.androidbasic.R;
-import com.example.androidbasic.helpers.animation;
-import com.example.androidbasic.helpers.fullscreen;
+import com.example.androidbasic.Helpers.animation;
+import com.example.androidbasic.Helpers.fullscreen;
 
 public class SentdataActivityLayout_Page_2 extends fullscreen {
 

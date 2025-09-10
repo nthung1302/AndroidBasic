@@ -3,8 +3,8 @@ package com.example.androidbasic.encode;
 import android.os.Bundle;
 
 import com.example.androidbasic.R;
-import com.example.androidbasic.helpers.console;
-import com.example.androidbasic.helpers.fullscreen;
+import com.example.androidbasic.Helpers.console;
+import com.example.androidbasic.Helpers.fullscreen;
 
 import java.nio.charset.StandardCharsets;
 import java.security.MessageDigest;

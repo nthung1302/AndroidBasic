@@ -4,7 +4,7 @@ import android.os.Bundle;
 import android.widget.TextView;
 
 import com.example.androidbasic.R;
-import com.example.androidbasic.helpers.fullscreen;
+import com.example.androidbasic.Helpers.fullscreen;
 
 import java.net.InetAddress;
 import java.net.UnknownHostException;

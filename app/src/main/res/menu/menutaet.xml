@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:orderInCategory="1" android:id="@+id/home" android:title="@string/home" />
+    <item android:orderInCategory="2" android:id="@+id/search" android:title="@string/search" />
+    <item android:orderInCategory="3" android:id="@+id/view" android:title="@string/view" />
+    <item android:orderInCategory="5" android:id="@+id/account" android:title="@string/account" />
+    <item android:orderInCategory="6" android:id="@+id/setting" android:title="@string/setting" />
+    <item android:orderInCategory="4" android:id="@+id/help" android:title="@string/help" />
+</menu>

@@ -5,8 +5,8 @@ import android.os.Bundle;
 import android.widget.ImageView;
 
 import com.example.androidbasic.R;
-import com.example.androidbasic.helpers.animation;
-import com.example.androidbasic.helpers.fullscreen;
+import com.example.androidbasic.Helpers.animation;
+import com.example.androidbasic.Helpers.fullscreen;
 
 public class ExplicitArrDataFloat_ex_1 extends fullscreen {
 

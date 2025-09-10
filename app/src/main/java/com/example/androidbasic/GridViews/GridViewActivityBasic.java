@@ -8,7 +8,7 @@ import android.widget.GridView;
 import android.widget.Toast;
 
 import com.example.androidbasic.R;
-import com.example.androidbasic.helpers.fullscreen;
+import com.example.androidbasic.Helpers.fullscreen;
 
 public class GridViewActivityBasic extends fullscreen {
 
